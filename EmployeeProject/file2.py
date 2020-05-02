@@ -1,3 +1,4 @@
+#importing file1
 import file1
 
 print("Enter the following details of the employee")
@@ -6,6 +7,7 @@ number = int(input("Enter Employee Number: "))
 payRate = int(input("Enter Pay Rate: "))
 shiftNumber = int(input("Enter Shift Number: "))
 
+#Creating instance of ProductionWorker class
 productionWorker = file1.ProductionWorker(name, number, payRate, shiftNumber)
 
 print("Details of Employee: ")
